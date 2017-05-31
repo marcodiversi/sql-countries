@@ -1,3 +1,7 @@
+--
+-- Go to sql and paste this code to add the table
+--
+
 CREATE TABLE IF NOT EXISTS `country` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `iso` char(2) NOT NULL,
@@ -9,8 +13,7 @@ CREATE TABLE IF NOT EXISTS `country` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `country`
+--After the table is created paste this code into sql TAB, it will generate all the countries columns
 --
 
 INSERT INTO `country` (`id`, `iso`, `name`, `nicename`, `iso3`, `numcode`, `phonecode`) VALUES
